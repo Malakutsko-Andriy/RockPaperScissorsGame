@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Камень Ножници Бумага</title>
+    <link rel="stylesheet" href="KNB.css">
+</head>
+
+<body>
+    <header>
+        <h1 id="HeaderText">Игра камень ножници бумага</h1>
+    </header>
+    <div id="MainG">
+        <div class="KNBContainer">
+            <img width="160px" height="160px" src="камень.webp" alt="камень"><br>
+            <button onclick="K()">Камень</button>
+        </div>
+        <div class="KNBContainer">
+            <img src="ножници.webp" alt="ножници"><br>
+            <button onclick="N()">Ножници</button>
+        </div>
+        <div class="KNBContainer">
+            <img src="бумага.webp" alt="бумага"><br>
+            <button onclick="B()">Бумага</button>
+        </div>
+    </div>
+    <div id="MainAG">
+        <button id="StartNewGame" onclick="Restart()">Онулировать счёт</button>
+        <div id="score">
+            <p id="ScoreGA"></p>
+        </div>
+        <p id="Winer"></p>
+    </div>
+
+    <div id="MainA">
+        <img width="160px" height="160px" src="secret.png" id="AponentImg" alt="secret">
+    </div>
+
+    <script src="KNB.js"></script>
+</body>
+
+</html>
