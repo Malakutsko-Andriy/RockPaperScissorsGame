@@ -1,5 +1,5 @@
 const MassegeArray = ["Ти проиграл апонент вибрал ", "Ти победил апонент вибрал ", "Ничья", ""];
-const KNBSrcArray = ["камень.webp", "ножници.webp", "бумага.webp", "secret.png"];
+const KNBSrcArray = ["./picture/камень.webp", "./picture/ножници.webp", "./picture/бумага.webp", "./picture/secret.png"];
 const KNBArray = ["камень", "ножници", "бумага"];
 let RandomNumber = Math.floor(Math.random() * 3);
 let Aponent = KNBArray[RandomNumber];
